@@ -12,23 +12,23 @@ import Skills from "./pages/Skills/skills";
 import Contact from "./pages/Contact/contact";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particalsOptions";
-import { HashRouter } from "react-router-dom";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+// import { HashRouter } from "react-router-dom";
+// import BrowserRouter from 'react-router-dom/BrowserRouter'
 
-ReactDOM.render((
-   <BrowserRouter basename={process.env.PUBLIC_URL}>
-     <App />
-   </BrowserRouter>
-), ...)
+// ReactDOM.render((
+//    <BrowserRouter basename={process.env.PUBLIC_URL}>
+//      <App />
+//    </BrowserRouter>
+// ), ...)
 
-<Router basename="/likhithapacha.github.io"> //add basename
-      <Switch>
-        <Route path='sailikhithapacha.github.io/likhithapacha.github.io' />
-//         <Route path='/about' component={About} />
-//         <Route path='/services' component={Services} />
-//         <Route path='/contact-us' component={Contact} />
-      </Switch>
-</Router>
+// <Router basename="/likhithapacha.github.io"> //add basename
+//       <Switch>
+//         <Route path='sailikhithapacha.github.io/likhithapacha.github.io' />
+// //         <Route path='/about' component={About} />
+// //         <Route path='/services' component={Services} />
+// //         <Route path='/contact-us' component={Contact} />
+//       </Switch>
+// </Router>
 
 
 const App = () => {
@@ -87,10 +87,10 @@ const App = () => {
   );
 };
 
-return (
-    <HashRouter base="/">
-        <App />
-    </HashRouter>
-)
+// return (
+//     <HashRouter base="/">
+//         <App />
+//     </HashRouter>
+// )
 
 export default App;
