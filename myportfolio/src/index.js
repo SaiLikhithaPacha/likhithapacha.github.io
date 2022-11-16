@@ -22,10 +22,12 @@ ReactDOM.render(
 //    </BrowserRouter>
 // ), ...)
 
-reportWebVitals();
-
 return (
     <HashRouter base="/">
         <App />
     </HashRouter>
 )
+
+reportWebVitals();
+
+
