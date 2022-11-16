@@ -12,6 +12,7 @@ import Skills from "./pages/Skills/skills";
 import Contact from "./pages/Contact/contact";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particalsOptions";
+import { HashRouter } from "react-router-dom";
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 ReactDOM.render((
@@ -20,7 +21,6 @@ ReactDOM.render((
    </BrowserRouter>
 ), ...)
 
-import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
