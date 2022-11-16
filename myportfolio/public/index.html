@@ -1,3 +1,23 @@
+var http = require('http');
+http.createServer(function (req, res) {
+  var body = '<!DOCTYPE html>\n'+
+         '<html>\n'+
+         '<head>\n'+
+         '    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n'+
+         '</head>\n'+
+         '<body>\n'+
+         '    <form action="/upload" method="post">\n'+
+         '        <textarea name="text" rows="20" cols="60"></textarea>\n'+
+         '        <input type="submit" value="Submit text" />\n'+
+         '    </form>\n'+
+         '</body>\n'+
+         '</html>\n';
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write(body);
+  res.end();
+}).listen(3000, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:3000/');
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
