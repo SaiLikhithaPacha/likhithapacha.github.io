@@ -12,6 +12,14 @@ import Skills from "./pages/Skills/skills";
 import Contact from "./pages/Contact/contact";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particalsOptions";
+import BrowserRouter from 'react-router-dom/BrowserRouter'
+
+ReactDOM.render((
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <App />
+   </BrowserRouter>
+), ...)
+
 import { HashRouter } from "react-router-dom";
 
 const App = () => {
