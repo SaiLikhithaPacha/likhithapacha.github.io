@@ -35,13 +35,13 @@ const Title = () => (
           Hello, I am
           <br />
           <span>
-            <strong>Gopi Chandana</strong>
+            <strong>Likhitha Pacha</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Learner", "Coder"],
+              strings: ["Web Developer", "Learner", "Programmer"],
               autoStart: true,
               loop: true,
               delay: 50,
