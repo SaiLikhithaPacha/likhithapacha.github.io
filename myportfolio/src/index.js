@@ -5,15 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./themes/theme";
-import { HashRouter } from "react-router-dom";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+// import { HashRouter } from "react-router-dom";
+// import BrowserRouter from 'react-router-dom/BrowserRouter'
 
-ReactDOM.render((
-   <BrowserRouter basename={process.env.PUBLIC_URL}>
-     <App />
-   </BrowserRouter>
-), ...)
-  
+ReactDOM.render(
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>,
@@ -27,11 +22,11 @@ ReactDOM.render((
 //    </BrowserRouter>
 // ), ...)
 
-return (
-    <HashRouter base="/">
-        <App />
-    </HashRouter>
-)
+// return (
+//     <HashRouter base="/">
+//         <App />
+//     </HashRouter>
+// )
 
 reportWebVitals();
 
