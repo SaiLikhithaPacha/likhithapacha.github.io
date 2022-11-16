@@ -8,7 +8,12 @@ import { theme } from "./themes/theme";
 import { HashRouter } from "react-router-dom";
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
-ReactDOM.render(
+ReactDOM.render((
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <App />
+   </BrowserRouter>
+), ...)
+  
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>,
