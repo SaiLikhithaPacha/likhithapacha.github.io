@@ -27,7 +27,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className="justify-content-center p-3 my-details rounded">
-              Meticulous Full Stack Web Developer dedicated to developing clean and scalable code. <br/>
+              I carry a positive attitude towards life and I am open to learning which makes me believe that each situation I face creates a better version of me and makes me take my failures as an opportunity to learn, grow and become stronger <br/>
               <br/>
               Passionate about creating the wonderful digital and overall great user experience.<br/>
               <br/> Effective Communicator and a learning enthusiast with a proactive attitude ready to take up tasks with a commitment to professionalism.
@@ -36,7 +36,7 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/14s5rcp5Oh-j9jX2tQpr12AvgrcoHeEda/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1zp4-kZPVrxrd_l9XmogK-u4af8__BXkK/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
