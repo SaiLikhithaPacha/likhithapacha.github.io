@@ -9,9 +9,7 @@ import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Skills from "./pages/Skills/skills";
-import TimeLine from "./components/Projects/projects";
 import Contact from "./pages/Contact/contact";
-import { Stats } from "./components/Gitstats/gitstats";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particalsOptions";
 const App = () => {
@@ -48,18 +46,18 @@ const App = () => {
           <Skills />
           </Fade>
       </Container>
-      <Container className="container-box rounded">
-      <Fade duration={150}>
-          <hr />
-          <TimeLine />
-          </Fade>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={150}>
-          <hr />
-          <Stats />
-        </Fade>
-      </Container>
+//       <Container className="container-box rounded">
+//       <Fade duration={150}>
+//           <hr />
+//           <TimeLine />
+//           </Fade>
+//       </Container>
+//       <Container className="container-box rounded">
+//         <Fade duration={150}>
+//           <hr />
+//           <Stats />
+//         </Fade>
+//       </Container>
       <Container className="container-box rounded">
         <Fade duration={150}>
           <hr />
