@@ -12,6 +12,8 @@ import Skills from "./pages/Skills/skills";
 import Contact from "./pages/Contact/contact";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particalsOptions";
+import { HashRouter } from "react-router-dom";
+
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
@@ -67,5 +69,11 @@ const App = () => {
     </div>
   );
 };
+
+return (
+    <HashRouter base="/">
+        <App />
+    </HashRouter>
+)
 
 export default App;
