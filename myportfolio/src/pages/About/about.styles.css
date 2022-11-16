@@ -1,0 +1,30 @@
+.about {
+  background-color: transparent;
+  /* background-color: black; */
+  font-size: 1.2em;
+  /* margin-left:40% */
+}
+
+.profile {
+  max-width: 18em;
+  max-height: 18em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* filter: grayscale(2%) sepia(1%) brightness(100%) hue-rotate(30deg)   invert(12%)  */
+}
+
+.my-details {
+  background-color: black;
+  font-weight: 600;
+  text-align: justify;
+  color:white
+}
+
+@media (max-width: 500px) {
+  .profile {
+    max-width: 12em;
+    max-height: 12em;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* filter: grayscale(2%) sepia(1%) brightness(100%) hue-rotate(30deg)   invert(12%)  */
+  }
+ }
