@@ -14,13 +14,13 @@ const Contact = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:gopichandanasiri@gmail.com"
+                href="mailto:likhithapacha@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button
                   variant="outline-danger"
-                  title="gopichandanasiri@gmail.com"
+                  title="likhithapacha@gmail.com"
                 >
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
@@ -29,7 +29,7 @@ const Contact = () => {
 
             <div className="m-2">
               <a
-                href="https://github.com/GopiChandana"
+                href="https://github.com/SaiLikhithaPacha"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             <div className="m-2 ">
               <a
-                href="https://www.linkedin.com/in/gopichandana"
+                href="https://www.linkedin.com/in/likhitha-pacha"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -50,17 +50,17 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="m-2">
-              <a
-                href="https://gopichandana.medium.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline-light" title="My other projects">
-                  <i className="fab fa-medium"></i> Medium
-                </Button>
-              </a>
-            </div>
+//             <div className="m-2">
+//               <a
+//                 href="https://gopichandana.medium.com/"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//               >
+//                 <Button variant="outline-light" title="My other projects">
+//                   <i className="fab fa-medium"></i> Medium
+//                 </Button>
+//               </a>
+//             </div>
           </Col>
         </Row>
       </Jumbotron>
