@@ -21,6 +21,15 @@ ReactDOM.render((
    </BrowserRouter>
 ), ...)
 
+<Router basename="/likhithapacha.github.io"> //add basename
+      <Switch>
+        <Route path='sailikhithapacha.github.io/likhithapacha.github.io' />
+//         <Route path='/about' component={About} />
+//         <Route path='/services' component={Services} />
+//         <Route path='/contact-us' component={Contact} />
+      </Switch>
+</Router>
+
 
 const App = () => {
   return (
